@@ -1,0 +1,8 @@
+echo "Enter User Email";
+read email;
+echo "Enter usrname";
+read username;
+git config --global user.email $email;
+git config --global user.name $username;
+echo "git config --global user.email $email":
+echo "git config --global user.name $username";

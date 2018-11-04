@@ -1,0 +1,10 @@
+echo "Enter remote name";
+read remote;
+echo "Enter git Repositary Name";
+read gitRepositary;
+git remote add "$remote" https://github.com/Ankeetshkk/"$gitRepositary"; 
+#git remote -v;
+echo "Remote $remote create for $gitRepositary";
+echo "Following command are executed";
+echo "git remote add $remote https://github.com/Ankeetshkk/$gitRepositary";
+#echo "git remote -v";
